@@ -12,8 +12,9 @@
 
     --fw-reg: 400;
     --fw-bold:700;
-    --fw-semi-bold:500:
+    --fw-semi-bold:500;
 
+    --fs-heads: 1.5rem;
 }
 /*css reset*/
 /*
@@ -76,7 +77,7 @@ main{
     overflow: hidden;
 }
 h1{
-    font-size: 1rem;
+    font-size: var(--fs-heads);
     color: var(--main-heading-stats);
     font-family: var(--ff-heads);
     padding: 0.25rem;
@@ -108,7 +109,7 @@ p{color: var(--main-paragraph);}
     padding: 1.5rem;
 }
 .number{
-    font-size: 1rem;
+    font-size: var(--fs-heads);
     font-family: var(--ff-heads);
     color: var(--main-heading-stats);
     font-weight: var(--fw-bold);
@@ -134,6 +135,7 @@ p{color: var(--main-paragraph);}
     }
     .content{
         text-align: left;
+        width: 60%;
     }
     .numbers{
         flex-direction: row;
