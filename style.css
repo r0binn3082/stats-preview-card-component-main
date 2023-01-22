@@ -117,7 +117,7 @@ p{color: var(--main-paragraph);}
 }
 @media (min-width:450px) {
     main{
-        width:70% ;
+        width:60% ;
         margin: auto;
         place-items: center;
         min-height: 100vh;
@@ -136,6 +136,9 @@ p{color: var(--main-paragraph);}
     .content{
         text-align: left;
         width: 60%;
+        grid-template-rows: 0.4fr 0.5fr;
+        place-self: center; 
+        padding: 0;
     }
     .numbers{
         flex-direction: row;
